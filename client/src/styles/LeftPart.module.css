@@ -1,0 +1,147 @@
+.leftPartContainer {
+  min-width: 230px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(28, 28, 28, 1);
+  color: white;
+}
+
+.logoAndName {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  font-size: 35px;
+}
+
+.name {
+  margin-left: 15px;
+}
+
+.avaAndName {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(39, 39, 39, 1);
+}
+
+.ava {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.nameUser {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.routes {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.routeActive {
+  background: #db812f;
+}
+
+.calendarContainer {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+  margin-left: 10px;
+}
+
+.calendarContainer span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.exercisesContainer {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+  margin-left: 10px;
+}
+
+.exercisesContainer span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.AIAssistantContainer {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+  margin-left: 10px;
+}
+
+.AIAssistantContainer span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.accountContainer {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+  margin-left: 10px;
+}
+
+.accountContainer span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.active {
+  background-color: #db812f;
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+Project name:
+    Our project is called Fitnesso.
+    It is a fitness app integrated with AI from google Bard.
+Members:
+    Project memebers who worked on a project: @gawrgura, @honka, @ignat
+Problems and solutions:
+    Our product helps people to generate their execises with AI so their body can be more fit
+and workout wont be boring.
+Technologies:   
+    In our project we used technologies such as React, NodeJs, Vite, MonogDB also server was written
+on typescript.
+Structure:
+    Here you can see the structure of our project https://www.figma.com/file/eqb4OlJJQewBgrarREKw62/Untitled?type=design&node-id=0-1&mode=design&t=69cKt7Yg6mq2Jkao-0
+Instalation:
+    If you want to run our project: firstly in the terminal go to the folder client than run a command
+npm i then run a command npm run dev and dont close the terminal
+Then in another terminal go to the folder server than run a command npm i then run a command npm run dev

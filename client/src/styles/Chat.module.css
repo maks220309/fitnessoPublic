@@ -1,0 +1,84 @@
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.calendarContainer {
+  width: 90%;
+  height: 100%;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.blockCalendar {
+  width: 425px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+  border-bottom: 4px solid white;
+}
+
+.chat {
+  width: 60%;
+  height: 65%;  
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+.inputChat {
+  width: 46.6%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+  border-radius: 10000px;
+  padding: 10px;
+}
+
+.inputChat > input {
+  width: 90%;
+  background: none;
+  border: none;
+  height: 100%;
+  border-radius: 100000px;
+  outline: none;
+  margin-left: 10px;
+  font-size: 22px;
+  color: white;
+}
+.inputChat > input:focus {
+  width: 100%;
+  background: none;
+  border: none;
+  height: 100%;
+}
+
+.submit {
+  height: 100%;
+  width: auto;
+  display: flex;
+  cursor: pointer;
+}
+
+.submit > * {
+  height: 100%;
+  width: 100%;
+  color: #4971ff;
+}
+
+.box {
+  width: 100%;
+}
